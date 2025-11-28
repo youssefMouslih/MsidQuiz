@@ -6,7 +6,7 @@ public class Question {
     private String id;
     private String question;
     private String image;
-    private String type; // single, multiple, true_false
+    private String type;
     private int timeLimit;
     private boolean shuffleAnswers;
     private List<Answer> answers;

@@ -61,7 +61,7 @@ public class QuizActivity extends AppCompatActivity {
         QuizData quizData = loadQuizFromAssets();
         if (quizData != null && quizData.getQuiz() != null && !quizData.getQuiz().isEmpty()) {
             questionList = quizData.getQuiz();
-            showQuestionNumberDialog(); // popup nombre de questions
+            showQuestionNumberDialog();
         } else {
             Toast.makeText(this, "No questions found!", Toast.LENGTH_SHORT).show();
         }
@@ -178,7 +178,6 @@ public class QuizActivity extends AppCompatActivity {
         disableAllOptions();
         showAnswerColors();
 
-        // 1 point if all correct options are selected and no wrong options are selected
         if (allCorrect()) {
             score += 1;
         }
@@ -215,7 +214,6 @@ public class QuizActivity extends AppCompatActivity {
 
     private boolean allCorrect() {
         for (Answer a : currentQuestion.getAnswers()) {
-            // if a correct answer is not selected, or a wrong answer is selected → not correct
             if (a.isCorrect() && !selectedAnswers.contains(a)) return false;
             if (!a.isCorrect() && selectedAnswers.contains(a)) return false;
         }
@@ -274,7 +272,7 @@ public class QuizActivity extends AppCompatActivity {
     }
 
     private void showFinalScore() {
-        int maxScore = totalQuestions; // 1 point max par question
+        int maxScore = totalQuestions;
         String note;
         float percent = ((float) score / maxScore) * 100;
 
@@ -296,7 +294,6 @@ public class QuizActivity extends AppCompatActivity {
         currentIndex = 0;
         tvLiveScore.setText("Points: " + score);
 
-        // Afficher de nouveau le popup pour choisir le nombre de questions
         showQuestionNumberDialog();
         setQuizViewsVisibility(View.GONE);
     }
