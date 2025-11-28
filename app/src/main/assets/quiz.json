@@ -1,0 +1,516 @@
+{
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "What is the base programming language for Android development?",
+      "type": "single",
+      "timeLimit": 30,
+      "shuffleAnswers": true,
+      "answers": [
+        {
+          "text": "Java",
+          "isCorrect": true
+        },
+        {
+          "text": "Python",
+          "isCorrect": false
+        },
+        {
+          "text": "C#",
+          "isCorrect": false
+        },
+        {
+          "text": "Ruby",
+          "isCorrect": false
+        }
+      ],
+      "hint": "It's widely used before Kotlin.",
+      "description": "Java has been the primary language for Android development before Kotlin became official.",
+      "points": 5
+    },
+    {
+      "id": "q2",
+      "question": "Which language is officially recommended by Google for Android development?",
+      "type": "single",
+      "timeLimit": 20,
+      "shuffleAnswers": true,
+      "answers": [
+        {
+          "text": "Kotlin",
+          "isCorrect": true
+        },
+        {
+          "text": "JavaScript",
+          "isCorrect": false
+        },
+        {
+          "text": "Swift",
+          "isCorrect": false
+        },
+        {
+          "text": "C++",
+          "isCorrect": false
+        }
+      ],
+      "hint": "It starts with 'K'.",
+      "description": "Kotlin is the preferred language for Android development according to Google.",
+      "points": 5
+    },
+    {
+      "id": "q3",
+      "question": "Which of the following are Android architecture components?",
+      "type": "multiple",
+      "timeLimit": 40,
+      "shuffleAnswers": true,
+      "answers": [
+        {
+          "text": "LiveData",
+          "isCorrect": true
+        },
+        {
+          "text": "ViewModel",
+          "isCorrect": true
+        },
+        {
+          "text": "ReactJS",
+          "isCorrect": false
+        },
+        {
+          "text": "Room",
+          "isCorrect": true
+        }
+      ],
+      "hint": "They help in managing UI-related data.",
+      "description": "LiveData, ViewModel, and Room are part of Android Jetpack architecture components.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "question": "Android Studio is based on which IDE?",
+      "type": "single",
+      "timeLimit": 20,
+      "shuffleAnswers": true,
+      "answers": [
+        {
+          "text": "IntelliJ IDEA",
+          "isCorrect": true
+        },
+        {
+          "text": "Eclipse",
+          "isCorrect": false
+        },
+        {
+          "text": "NetBeans",
+          "isCorrect": false
+        },
+        {
+          "text": "Visual Studio",
+          "isCorrect": false
+        }
+      ],
+      "hint": "It's from JetBrains.",
+      "description": "Android Studio is based on IntelliJ IDEA IDE from JetBrains.",
+      "points": 5
+    },
+    {
+      "id": "q5",
+      "question": "Which of these are Android app components?",
+      "type": "multiple",
+      "timeLimit": 35,
+      "shuffleAnswers": true,
+      "answers": [
+        {
+          "text": "Activity",
+          "isCorrect": true
+        },
+        {
+          "text": "Service",
+          "isCorrect": true
+        },
+        {
+          "text": "Controller",
+          "isCorrect": false
+        },
+        {
+          "text": "BroadcastReceiver",
+          "isCorrect": true
+        }
+      ],
+      "hint": "They handle UI, background tasks, and messaging.",
+      "description": "Activity, Service, and BroadcastReceiver are core Android components.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "question": "Does Android support both Java and Kotlin?",
+      "type": "true_false",
+      "timeLimit": 15,
+      "shuffleAnswers": false,
+      "answers": [
+        {
+          "text": "Yes",
+          "isCorrect": true
+        },
+        {
+          "text": "No",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Think about official languages.",
+      "description": "Android supports both Java and Kotlin for app development.",
+      "points": 2
+    },
+    {
+      "id": "q7",
+      "question": "Which file defines the app’s UI layout in XML?",
+      "type": "single",
+      "timeLimit": 25,
+      "shuffleAnswers": true,
+      "answers": [
+        {
+          "text": "activity_main.xml",
+          "isCorrect": true
+        },
+        {
+          "text": "AndroidManifest.xml",
+          "isCorrect": false
+        },
+        {
+          "text": "build.gradle",
+          "isCorrect": false
+        },
+        {
+          "text": "strings.xml",
+          "isCorrect": false
+        }
+      ],
+      "hint": "It usually starts with 'activity_'.",
+      "description": "UI layouts in Android are defined in XML files like activity_main.xml.",
+      "points": 5
+    },
+    {
+      "id": "q8",
+      "question": "Which of these is a valid Android layout?",
+      "type": "multiple",
+      "timeLimit": 35,
+      "shuffleAnswers": true,
+      "answers": [
+        {
+          "text": "LinearLayout",
+          "isCorrect": true
+        },
+        {
+          "text": "ConstraintLayout",
+          "isCorrect": true
+        },
+        {
+          "text": "GridLayout",
+          "isCorrect": true
+        },
+        {
+          "text": "FlowLayout",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Think standard layouts in Android SDK.",
+      "description": "LinearLayout, ConstraintLayout, and GridLayout are valid Android layouts.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "question": "Android apps are packaged as APK files.",
+      "type": "true_false",
+      "timeLimit": 10,
+      "shuffleAnswers": false,
+      "answers": [
+        {
+          "text": "Yes",
+          "isCorrect": true
+        },
+        {
+          "text": "No",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Check the file extension of Android apps.",
+      "description": "Android apps are distributed as APK files.",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "question": "Which of these are Android data storage options?",
+      "type": "multiple",
+      "timeLimit": 40,
+      "shuffleAnswers": true,
+      "answers": [
+        {
+          "text": "SharedPreferences",
+          "isCorrect": true
+        },
+        {
+          "text": "Room Database",
+          "isCorrect": true
+        },
+        {
+          "text": "SQLite",
+          "isCorrect": true
+        },
+        {
+          "text": "IndexDB",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Options include key-value and relational databases.",
+      "description": "SharedPreferences, Room, and SQLite are used for data storage in Android.",
+      "points": 10
+    },
+    {
+      "id": "q11",
+      "question": "What is the purpose of AndroidManifest.xml?",
+      "type": "single",
+      "timeLimit": 25,
+      "shuffleAnswers": true,
+      "answers": [
+        {
+          "text": "Declare app components & permissions",
+          "isCorrect": true
+        },
+        {
+          "text": "Store UI layouts",
+          "isCorrect": false
+        },
+        {
+          "text": "Compile resources",
+          "isCorrect": false
+        },
+        {
+          "text": "Manage Gradle dependencies",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Think about components, activities, and permissions.",
+      "description": "AndroidManifest.xml declares app components, permissions, and other metadata.",
+      "points": 5
+    },
+    {
+      "id": "q12",
+      "question": "Which of these are Android lifecycle methods?",
+      "type": "multiple",
+      "timeLimit": 35,
+      "shuffleAnswers": true,
+      "answers": [
+        {
+          "text": "onCreate()",
+          "isCorrect": true
+        },
+        {
+          "text": "onStart()",
+          "isCorrect": true
+        },
+        {
+          "text": "render()",
+          "isCorrect": false
+        },
+        {
+          "text": "onDestroy()",
+          "isCorrect": true
+        }
+      ],
+      "hint": "Methods that handle activity states.",
+      "description": "onCreate(), onStart(), and onDestroy() are Android Activity lifecycle methods.",
+      "points": 10
+    },
+    {
+      "id": "q13",
+      "question": "RecyclerView is used to display lists efficiently.",
+      "type": "true_false",
+      "timeLimit": 10,
+      "shuffleAnswers": false,
+      "answers": [
+        {
+          "text": "Yes",
+          "isCorrect": true
+        },
+        {
+          "text": "No",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Think about scrolling lists.",
+      "description": "RecyclerView is optimized for displaying long lists with view recycling.",
+      "points": 2
+    },
+    {
+      "id": "q14",
+      "question": "Which of these is used for asynchronous tasks in Android?",
+      "type": "multiple",
+      "timeLimit": 40,
+      "shuffleAnswers": true,
+      "answers": [
+        {
+          "text": "AsyncTask",
+          "isCorrect": true
+        },
+        {
+          "text": "Coroutines",
+          "isCorrect": true
+        },
+        {
+          "text": "Thread",
+          "isCorrect": true
+        },
+        {
+          "text": "XML",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Think background operations.",
+      "description": "AsyncTask, Coroutines, and Threads are used for background operations in Android.",
+      "points": 10
+    },
+    {
+      "id": "q15",
+      "question": "Fragments are reusable portions of UI in Android.",
+      "type": "true_false",
+      "timeLimit": 15,
+      "shuffleAnswers": false,
+      "answers": [
+        {
+          "text": "Yes",
+          "isCorrect": true
+        },
+        {
+          "text": "No",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Think about modular UI.",
+      "description": "Fragments allow building reusable and modular UI components.",
+      "points": 2
+    },
+    {
+      "id": "q16",
+      "question": "Which of these are Android permission types?",
+      "type": "multiple",
+      "timeLimit": 35,
+      "shuffleAnswers": true,
+      "answers": [
+        {
+          "text": "Normal",
+          "isCorrect": true
+        },
+        {
+          "text": "Dangerous",
+          "isCorrect": true
+        },
+        {
+          "text": "System",
+          "isCorrect": true
+        },
+        {
+          "text": "Hidden",
+          "isCorrect": false
+        }
+      ],
+      "hint": "There are 3 main types.",
+      "description": "Android permissions are Normal, Dangerous, and System types.",
+      "points": 10
+    },
+    {
+      "id": "q17",
+      "question": "LiveData updates UI automatically when data changes.",
+      "type": "true_false",
+      "timeLimit": 10,
+      "shuffleAnswers": false,
+      "answers": [
+        {
+          "text": "Yes",
+          "isCorrect": true
+        },
+        {
+          "text": "No",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Think reactive programming.",
+      "description": "LiveData is lifecycle-aware and automatically updates UI components.",
+      "points": 2
+    },
+    {
+      "id": "q18",
+      "question": "Which of these are part of Jetpack Compose?",
+      "type": "multiple",
+      "timeLimit": 40,
+      "shuffleAnswers": true,
+      "answers": [
+        {
+          "text": "Text",
+          "isCorrect": true
+        },
+        {
+          "text": "Button",
+          "isCorrect": true
+        },
+        {
+          "text": "Activity",
+          "isCorrect": false
+        },
+        {
+          "text": "Column",
+          "isCorrect": true
+        }
+      ],
+      "hint": "Think declarative UI components.",
+      "description": "Text, Button, and Column are Compose UI elements.",
+      "points": 10
+    },
+    {
+      "id": "q19",
+      "question": "Do you need Gradle to build Android apps?",
+      "type": "true_false",
+      "timeLimit": 15,
+      "shuffleAnswers": false,
+      "answers": [
+        {
+          "text": "Yes",
+          "isCorrect": true
+        },
+        {
+          "text": "No",
+          "isCorrect": false
+        }
+      ],
+      "hint": "It handles builds and dependencies.",
+      "description": "Gradle is the build system used for Android projects.",
+      "points": 2
+    },
+    {
+      "id": "q20",
+      "question": "Which of these are Android testing frameworks?",
+      "type": "multiple",
+      "timeLimit": 40,
+      "shuffleAnswers": true,
+      "answers": [
+        {
+          "text": "JUnit",
+          "isCorrect": true
+        },
+        {
+          "text": "Espresso",
+          "isCorrect": true
+        },
+        {
+          "text": "Mockito",
+          "isCorrect": true
+        },
+        {
+          "text": "Selenium",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Used for unit and UI testing.",
+      "description": "JUnit, Espresso, and Mockito are commonly used testing frameworks for Android.",
+      "points": 10
+    }
+  ]
+}
